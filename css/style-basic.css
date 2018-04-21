@@ -24,3 +24,11 @@ body {
   position: absolute;
   left: 25px;
 }
+
+.job-title {
+  color: grey;
+}
+
+.email-address {
+  color: #007bff;
+}
