@@ -13,3 +13,14 @@ body {
     padding-top: 56px;
   }
 }
+
+.custom-bullet ul li {
+  list-style-type:none;
+}
+
+.custom-bullet ul li:before {
+  font-family: 'Icons';
+  content: "\e033";
+  position: absolute;
+  left: 25px;
+}
